@@ -4,6 +4,6 @@ const Note = ({ note, toggleImportance }) => {
     <li className='note'>{note.content}
       <button onClick={toggleImportance}>{label}</button>
     </li>
-  );
+  )
 }
 export default Note
