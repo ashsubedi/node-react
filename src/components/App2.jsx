@@ -38,7 +38,7 @@ const Stats = ({goodCount, neturalCount, badCount, totalCount, average, positive
     )
   }
 };
-const App = () => {
+const App2 = () => {
   // save clicks of each button to its own state
   const [good, setGood] = useState(0)
   const [neutral, setNeutral] = useState(0)
@@ -99,4 +99,4 @@ const App = () => {
   </table>
   );
 };
-export default App
+export default App2
